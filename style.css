@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:wght@100;200&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-login{
+
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.left-login h1{
+   color: #00ff88;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login{
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 30px 35px; 
+   background: #2f2841;
+   border-radius: 20px;
+    box-shadow: 0px 10px 40px #000056;
+}
+.card-login > h1 {
+    color: #00ff88;
+    font-weight:800;
+    margin: 0;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+  box-shadow: 0px 20px 50px#3b3b81;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: #e8eeeede;
+    margin-bottom: 10px; 
+}
+
+.textfield > input::placeholder{
+ color: #f0ffff94;
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2;
+    color: #1e1827;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 20px 40px -12px #0f693c52;
+}
+
+.cawboy-login{
+    width: 30vw;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cawboy-login {
+    width: 30vw;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+    
+
+
+
+
